@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import HolaTensorflow from './tensor';
+import MyButton from './boton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <buttom></buttom>
-      </header>
+    <div>
+      <HolaTensorflow></HolaTensorflow>
+      <MyButton></MyButton>
     </div>
   );
 }
